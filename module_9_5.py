@@ -42,6 +42,6 @@ print()
 for i in iter4:
     print(i, end=' ')
 print()
-# for i in iter5:
-#     print(i, end=' ')
-# print()
+for i in iter5:
+    print(i, end=' ')
+print()
