@@ -7,7 +7,8 @@ def all_variants(text: str):
             i += 1
         ln += 1
 
-v = all_variants('abc')
+v = all_variants('abcd')
+
 
 for v_ in v:
     print(v_)
