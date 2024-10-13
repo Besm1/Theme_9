@@ -12,7 +12,7 @@ class Iterator:
         self.pointer = start
 
     def __iter__(self):
-        self.pointer = self.start
+        self.pointer = self.start - self.step
         return self
 
     def __next__(self):
